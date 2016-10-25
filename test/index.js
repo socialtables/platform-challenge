@@ -9,13 +9,17 @@ let singleEvent = require("./fixtures/singleEvent");
 let replacedEvent = require("./fixtures/replacedEvent");
 let eventToDelete = require("./fixtures/eventToDelete");
 
+const AWFUL_SEMVER_REGEX =  /\bv?(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:-[\da-z\-]+(?:\.[\da-z\-]+)*)?(?:\+[\da-z\-]+(?:\.[\da-z\-]+)*)?\b/ig;
+
 describe("should call our events api", function() {
 	let api = chai.request(app)
-	it("and should report its status", function() {
+	it("and should report its status and version", function() {
 		return api.get('/')
 			.then(res => {
 				expect(res).to.have.status(200);
 				expect(res.body).to.have.property("status").and.equal("ok");
+				expect(res.body).to.have.property("version");
+				expect(res.body.version).to.match(AWFUL_SEMVER_REGEX);
 			})
 	});
 
