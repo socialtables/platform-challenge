@@ -4,7 +4,7 @@ Your task is to create a basic events API allowing new events to be saved to a d
 
 Your solution should implement the following endpoints:
 
-GET /
+### GET /
 Should return status info in the form of:
 ```
 {
@@ -16,7 +16,7 @@ Should return status info in the form of:
 1. The status property should be set to "ok"
 2. The version property should return the version from package.json
 
-GET /events
+### GET /events
 Should return json listing (array) of all events in the format:
 ```
 {
@@ -31,7 +31,7 @@ Should return json listing (array) of all events in the format:
 }
 ```
 
-GET /events/:event_id
+### GET /events/:event_id
 Should return json for a specific event in the format:
 ```
 {
@@ -44,7 +44,7 @@ Should return json for a specific event in the format:
 }
 ```
 
-POST /events
+### POST /events
 Should allow creation of multiple events by posting an array in the format:
 ```
 {
@@ -72,7 +72,7 @@ Should return an array of inserted ids:
 }
 ```
 
-PUT /events/:event_id
+### PUT /events/:event_id
 Should replace an event with a particular id with new data:
 ```
 {
@@ -93,7 +93,7 @@ Should return the replaced id:
 }
 ```
 
-DELETE /events/:event_id
+### DELETE /events/:event_id
 Should delete an event with a particular id.
 
 Should return the deleted id:
@@ -108,7 +108,7 @@ Should return the deleted id:
 A test suite is provided to guide you and let you know when you have completed the task. You can run
 the suite with the ```npm test``` command.
 
-GET /secrets
+### GET /secrets
 Should get a list of secrets:
 ```
 {
