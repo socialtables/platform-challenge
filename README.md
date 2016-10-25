@@ -122,6 +122,11 @@ checks the authorization header against a username and passwordof your choosing.
 without credentials, it should return a 401 Unauthorized status. The auth middleware should only be 
 applied to this endpoint.
 
+### Test suite
+A test suite has been provided in the /test folder.  You should examine these tests to figure out additional
+requirements like proper HTTP status codes that should be returned from your endpoints.  Please leave the tests
+intact though unless you find a bug.
+
 ### Instructions:
 
 1. Get a recent version of node.js (6 or higher): nodejs.org
