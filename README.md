@@ -129,7 +129,7 @@ requirements like proper HTTP status codes that should be returned from your end
 
 1. Get a recent version of node.js (6 or higher): nodejs.org
 2. Clone this repo
-3. cd to the repo's directory and run ```npm install``
+3. cd to the repo's directory and run ``npm install``
 3. If you prefer to use a specific persistence layer or database, install that and use ```npm``` to 
 install the bindings. Popular choices include: mysql, sqlite, redis, etc. If you'd rather not
 have to think about it, the package.json included in this repo depends on bindings to leveldb, a simple
