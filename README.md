@@ -1,6 +1,5 @@
 # Social Tables Platform Intern Challenge 
-
-Your task, should you choose to accept it, is to create a basic events API allowing new events to be saved to a data store.
+Social Tables engineering is looking for an intern!  The position is a great opportunity to learn and grow on a fantastic team working with fun, exciting tech. Your task, should you choose to accept it, is to create a basic events API allowing new events to be saved to a data store. Women, LGBTQ+ and people of color are encouraged to apply!
 
 Your solution should implement the following endpoints:
 
