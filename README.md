@@ -1,6 +1,6 @@
-# Apprentice Challenge - Infrastructure
+# Social Tables Platform Intern Challenge 
 
-Your task is to create a basic events API allowing new events to be saved to a data store.
+Your task, should you choose to accept it, is to create a basic events API allowing new events to be saved to a data store.
 
 Your solution should implement the following endpoints:
 
@@ -122,12 +122,12 @@ checks the authorization header against a username and passwordof your choosing.
 without credentials, it should return a 401 Unauthorized status. The auth middleware should only be 
 applied to this endpoint.
 
-### Test suite
+## Getting started
+
+### Test Suite
 A test suite has been provided in the /test folder.  You should examine these tests to figure out additional
 requirements like proper HTTP status codes that should be returned from your endpoints.  Please leave the tests
 intact though unless you find a bug.
-
-### Instructions:
 
 1. Get a recent version of node.js (6 or higher): nodejs.org
 2. clone this repo
@@ -138,3 +138,39 @@ have to think about it, the package.json included in this repo depends on bindin
 embedded key value store, see docs here: https://www.npmjs.com/package/levelup
 4. Run npm ```npm test``` to see what tests are failing
 5. develop and repeat #4 until all the tests pass.
+
+## How to submit
+Send all your files in one email to internchallenge@socialtables.com with the subject line, Social Tables Venue Mapper Intern Challenge.
+
+You must include the following files in your email: YourInitials-readme.{md, txt}, YourInitials-code.{tar.gz, zip}, YourInitials-resume.pdf (where YourInitials are your initials).
+
+These files will contain:
+
+* The YourInitials-readme.{md, txt} contains instructions for running your code and any notes you wish to include.
+* The YourInitials-code.{tar.gz, zip} contains your code. You can optionally also submit a link to your code in the readme file.
+* A file named YourInitials-resume.pdf containing your resume.
+
+Submitting your node-modules folder isn't necessary, for example, because we can get it by running npm install; however, you should at least submit any files you found necessary to change and enough support and explanation so we can reproduce your results. In any case, include all the information in YourInitials-readme.{md, txt}.
+
+## FAQ
+
+**Can I copy code from the Internet?**  
+You must cite any outside resources you use in your work (for example, using comments to denote a snippet obtained from Stack Overflow).  
+
+**Can I post my solution to the Internet/GitHub?**  
+We ask that you don't. It makes it much harder to evaluate submissions when a completed solution is available for review.
+
+**Can I copy someone else's submission, cite it, and submit?**  
+No.
+
+**Can I submit without completing all the challenge?**  
+Yes.
+
+**What is the status of my application?**  
+Email <internchallenge@socialtables.com>.
+
+**I see a typo.**  
+Submit a pr.
+
+**I still have a question.**  
+Submit a Github issue.
