@@ -1,4 +1,4 @@
-# Social Tables Platform Intern Challenge 
+# Social Tables Platform Intern Challenge
 Social Tables engineering is looking for an intern!  The position is a great opportunity to learn and grow on a fantastic team working with fun, exciting tech. Your task, should you choose to accept it, is to create a basic events API allowing new events to be saved to a data store. Women, LGBTQ+ and people of color are encouraged to apply!
 
 Your solution should implement the following endpoints:
@@ -117,8 +117,8 @@ Should get a list of secrets:
 }
 ```
 The twist:  You should protect this secrets endpoint with basic authentication. Write a simple middleware that
-checks the authorization header against a username and passwordof your choosing.  If you hit this endpoint
-without credentials, it should return a 401 Unauthorized status. The auth middleware should only be 
+checks the authorization header against a username and password of your choosing.  If you hit this endpoint
+without credentials, it should return a 401 Unauthorized status. The auth middleware should only be
 applied to this endpoint.
 
 ## Getting started
@@ -129,7 +129,7 @@ requirements like proper HTTP status codes that should be returned from your end
 1. Get a recent version of node.js (6 or higher): nodejs.org
 2. Clone this repo
 3. cd to the repo's directory and run ``npm install``
-3. If you prefer to use a specific persistence layer or database, install that and use ```npm``` to 
+3. If you prefer to use a specific persistence layer or database, install that and use ```npm``` to
 install the bindings. Popular choices include: mysql, sqlite, redis, etc. If you'd rather not
 have to think about it, the package.json included in this repo depends on bindings to leveldb, a simple
 embedded key value store, see docs here: https://www.npmjs.com/package/levelup
