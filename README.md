@@ -134,7 +134,7 @@ install the bindings. Popular choices include: mysql, sqlite, redis, etc. If you
 have to think about it, the package.json included in this repo depends on bindings to leveldb, a simple
 embedded key value store, see docs here: https://www.npmjs.com/package/levelup
 4. Run npm ```npm test``` to see what tests are failing
-5. Develop and repeat #4 until all the tests pass.
+5. Develop and repeat #5 until all the tests pass.
 
 ## How to submit
 Send all your files in one email to internchallenge@socialtables.com with the subject line, Social Tables Venue Mapper Intern Challenge.
